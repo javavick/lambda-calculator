@@ -25,12 +25,17 @@ function App() {
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Display number={numberState} />
-        <div>
-          <Specials />
-          <Numbers />
-        </div>
-        <div>
-          <Operators />
+        <div className="buttons-div">
+          <div className="specials-numbers-div">
+            <Specials />
+            <Numbers
+              numberState={numberState}
+              setNumberState={setNumberState}
+            />
+          </div>
+          <div className="operators-div">
+            <Operators />
+          </div>
         </div>
       </div>
     </div>

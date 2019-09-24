@@ -1,0 +1,22 @@
+.operators-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.operator-btn {
+  background-color: #45b6e3;
+  color: #ffffff;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 0px 5px #570c1b;
+  height: 90px;
+  width: 90px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.operator-btn:hover {
+  background-color: #2681a5;
+}

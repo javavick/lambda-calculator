@@ -1,15 +1,16 @@
 .container {
-  background-color: #c00025;
+  background-color: #b91737;
   width: 100%;
   max-width: 550px;
   border-radius: 15px;
   border: 2px solid grey;
   padding-bottom: 25px;
+  margin: 0 auto;
 }
 .display {
   margin: 25px auto;
   height: 100px;
-  width: 450px;
+  width: 430px;
   border-radius: 50px;
   color: white;
   background-color: #322c2d;
@@ -17,7 +18,21 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding-right: 8%;
-  font-size: 4rem;
+  padding-right: 4%;
+  font-size: 3.5rem;
   line-height: 100px;
+}
+
+.buttons-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 7px 0 7px;
+}
+
+.specials-numbers-div {
+  width: 75%;
+}
+
+.operators-div {
+  width: 25%;
 }
