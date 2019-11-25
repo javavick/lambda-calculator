@@ -1,0 +1,22 @@
+.specials-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10px;
+}
+
+.special-btn {
+  background-color: #2563ae;
+  color: #ffffff;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 0px 5px #570c1b;
+  height: 90px;
+  width: 90px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.special-btn:hover {
+  background-color: #4288dd;
+}
